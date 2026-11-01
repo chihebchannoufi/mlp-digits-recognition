@@ -32,11 +32,6 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 
-Si PowerShell bloque l'activation des scripts, exécuter au préalable :
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
 
 Avec Windows CMD :
 
