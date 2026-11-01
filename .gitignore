@@ -1,0 +1,33 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration et secrets locaux
+.env
+.env.*
+!.env.example
+
+# Outils de développement
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers de tests et de couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Fichiers générés par Streamlit
+.streamlit/secrets.toml
+
+# Fichiers système
+.DS_Store
+Thumbs.db
